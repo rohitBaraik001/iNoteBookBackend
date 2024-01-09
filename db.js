@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect('mongodb:https://inotebookbackend1-rfbv.onrender.com',{
+mongoose.connect('mongodb://127.0.0.1:27017/inotebook',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
